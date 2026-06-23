@@ -123,7 +123,7 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
 .s7 .tier-res{font-family:'Archivo';font-weight:600;font-size:20px;color:#fff;}
 .s7 .fnote{margin-top:8px;font-size:14px;color:rgba(253,254,254,.5);}
 .r-eyebrow{font-weight:600;letter-spacing:.26em;text-transform:uppercase;font-size:13px;color:rgba(253,254,254,.55);margin-bottom:20px;}
-</style></head><body>
+</style><style>html{overflow-x:hidden}#deck{position:absolute;top:0;left:0;width:1280px;transform-origin:top left}@media print{#deck{transform:none!important;position:static!important}html,body{height:auto!important;overflow:visible!important}}</style></head><body><div id="deck">
 
 <!-- S1 -->
 <section class="slide dark s1">
@@ -267,4 +267,4 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
   </div>
 </section>
 
-</body></html>
+</div><script>(function(){var W=1280,d=document.getElementById("deck");function f(){var vw=document.documentElement.clientWidth,s=vw/W;d.style.transform="scale("+s+")";document.body.style.height=(d.scrollHeight*s)+"px";}window.addEventListener("resize",f);window.addEventListener("load",f);f();})();</script></body></html>
