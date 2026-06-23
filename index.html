@@ -147,7 +147,7 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
 .s8-btn.wa:hover{border-color:rgba(51,224,127,.55);}
 .s8-btn.wa:hover .s8-ic{color:var(--green);}
 .s8 .botlogo{height:30px;position:absolute;bottom:38px;left:50%;transform:translateX(-50%);opacity:.5;}
-</style><style>/* ===== Brochure Korex en horizontal (preview) ===== */
+</style><style>/* ===== Slides de contenido en horizontal (preview) ===== */
 .bx{position:absolute;inset:0;display:flex;flex-direction:column;padding:44px 70px 36px;}
 .slide.light .bx{color:var(--ink);} .slide.dark .bx{color:var(--white);}
 .bx-top,.bx-foot{display:flex;justify-content:space-between;align-items:center;font-family:'Inter';font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;opacity:.5;flex:0 0 auto;}
@@ -198,18 +198,28 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
 .bx-step.feat .sn{background:var(--gold);color:#06222a;}
 .bx-step .stt{font-family:'Archivo';font-weight:700;font-size:15.5px;line-height:1.18;margin-bottom:8px;}
 .bx-step .sd{font-family:'Inter';font-size:12.5px;line-height:1.4;color:rgba(253,254,254,.62);}
-.bx-people{display:grid;gap:14px;margin-top:16px;}
+.bx-people{display:grid;gap:16px;margin-top:18px;}
+.bx-people.big{gap:22px;}
 .bx-person{text-align:center;}
 .bx-ph{width:74px;height:74px;border-radius:50%;overflow:hidden;background:#e6ecea;margin:0 auto 8px;}
+.bx-people.big .bx-ph{width:104px;height:104px;}
 .bx-ph img{width:100%;height:100%;object-fit:cover;display:block;}
 .bx-person .nm{font-family:'Archivo';font-weight:700;font-size:12px;line-height:1.12;}
+.bx-people.big .nm{font-size:14.5px;}
 .bx-person .rl{font-family:'Inter';font-size:10.5px;color:#5b6f72;margin-top:2px;}
-.bx-hr{height:1px;background:#e3ebe9;border:0;margin:14px 0 6px;}
+.bx-people.big .rl{font-size:12.5px;}
 .bx-ads{display:grid;grid-template-columns:repeat(6,1fr);gap:13px;margin-top:16px;}
+.bx-ads.three{grid-template-columns:repeat(3,212px);justify-content:center;gap:30px;margin-top:24px;}
 .bx-ad .r916{aspect-ratio:9/16;border-radius:12px;overflow:hidden;background:#000;border:1px solid #e3ebe9;}
 .bx-ad .r916 video{width:100%;height:100%;object-fit:cover;display:block;}
-.bx-cap{font-family:'Inter';font-size:10.5px;margin-top:7px;line-height:1.3;color:#5b6f72;}
+.bx-cap{font-family:'Inter';font-size:11px;margin-top:8px;line-height:1.3;color:#5b6f72;text-align:center;}
 .bx-cap .t{font-weight:700;color:var(--ink);}
+.bx-embed{border-radius:14px;overflow:hidden;border:1px solid #e3ebe9;background:#fff;box-shadow:0 26px 60px -34px rgba(2,50,60,.5);}
+.bx-embed .bar{height:32px;display:flex;align-items:center;gap:7px;padding:0 14px;background:#eef3f2;border-bottom:1px solid #e3ebe9;}
+.bx-embed .dot{width:9px;height:9px;border-radius:50%;background:#cdd8d6;}
+.bx-embed .url{margin-left:10px;font-family:'Inter';font-size:11px;font-weight:600;color:#7c8d8b;letter-spacing:.02em;}
+.bx-embed .vp{position:relative;width:100%;height:430px;overflow:hidden;background:#fff;}
+.bx-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
 </style></head><body><div id="deck">
 
 <!-- S1 -->
@@ -223,21 +233,17 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
 
 <!-- BX02 -->
 <section class="slide light"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>Quién está detrás · 02</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Quién está detrás · 02</span></div>
   <div class="bx-body">
-    <div class="bx-head"><span class="eyebrow">Quién es Korex</span><h2 style="font-size:31px">Quién está detrás de Korex</h2><p class="bx-sub" style="margin-top:10px">Equipo fundador y operativo de 10 personas full-time: estrategia, tecnología, tráfico y soporte.</p></div>
-    <div class="bx-people" style="grid-template-columns:repeat(5,1fr);max-width:640px"><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/fa2c00708f314405bc33111fd71f31b9/original/image.png" alt="" loading="lazy"></div><div class="nm">Cristian Fernández</div><div class="rl">Founder</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/0d2977530b12495f98ae67e9f8af6f47/original/Perfil-1-NsB.png" alt="" loading="lazy"></div><div class="nm">Matias Braszka</div><div class="rl">COO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/c418670692444707b29ba46a6d5f5f7b/original/ChatGPT-Image-12-mar-2026-10_40_09.png" alt="" loading="lazy"></div><div class="nm">Marcos Del Rey</div><div class="rl">CTO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/0f23f7dda4ce4c4ea5c4736a17abc452/original/ChatGPT-Image-12-mar-2026-10_06_25.png" alt="" loading="lazy"></div><div class="nm">Jose Martin</div><div class="rl">CMO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/de5d8186615048deaeee6771cc1c98a9/original/WhatsApp-Image-2026-03-12-at-9.46.09-AM.jpeg" alt="" loading="lazy"></div><div class="nm">Alberto Rodrilla</div><div class="rl">Analítica</div></div></div>
-    <hr class="bx-hr">
-    <span class="eyebrow" style="font-size:12px">Referentes que ya confían en Korex</span>
-    <div class="bx-people" style="grid-template-columns:repeat(6,1fr);margin-top:11px"><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/9432d4e1ab3e44a087d5a8a355fd70e0/original/image.png" alt="" loading="lazy"></div><div class="nm">Daniel Serrano</div><div class="rl">Uni2Matrix</div></div><div class="bx-person"><div class="bx-ph"><img src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/69da1e1c019dc508d3333d39.png" alt="" loading="lazy"></div><div class="nm">Mónica Vozmediano</div><div class="rl">Essens</div></div><div class="bx-person"><div class="bx-ph"><img src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/69e62e6292b8c1ad71f4a071.jpg" alt="" loading="lazy"></div><div class="nm">José Piquer</div><div class="rl">Reclutamiento</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/e1de0dcaddf64ee7aa1adcb16466e41e/original/image.jpeg" alt="" loading="lazy"></div><div class="nm">Jonathan Díaz</div><div class="rl">Summit</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/0764b703db6f4cefb9e4fe282d7bedb0/original/image.png" alt="" loading="lazy"></div><div class="nm">Elixon Alcalá</div><div class="rl">OMD</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/7d278b8d2cff478980f7dea6082c591b/original/image.png" alt="" loading="lazy"></div><div class="nm">José Luis Rodríguez</div><div class="rl"></div></div></div>
-    <div class="bx-card" style="margin-top:15px;text-align:center"><p class="bx-lead" style="font-size:15.5px">Entre las redes de nuestros clientes superamos el <em>millón de personas alcanzadas</em>.</p></div>
+    <div class="bx-head" style="text-align:center"><span class="eyebrow">El equipo</span><h2 style="font-size:34px">Quién está detrás del sistema</h2><p class="bx-sub" style="margin:10px auto 0">Equipo fundador y operativo full-time: estrategia, tecnología, tráfico y soporte.</p></div>
+    <div class="bx-people big" style="grid-template-columns:repeat(5,1fr);max-width:760px;margin-left:auto;margin-right:auto"><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/fa2c00708f314405bc33111fd71f31b9/original/image.png" alt="" loading="lazy"></div><div class="nm">Cristian Fernández</div><div class="rl">Founder</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/0d2977530b12495f98ae67e9f8af6f47/original/Perfil-1-NsB.png" alt="" loading="lazy"></div><div class="nm">Matias Braszka</div><div class="rl">COO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/c418670692444707b29ba46a6d5f5f7b/original/ChatGPT-Image-12-mar-2026-10_40_09.png" alt="" loading="lazy"></div><div class="nm">Marcos Del Rey</div><div class="rl">CTO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/0f23f7dda4ce4c4ea5c4736a17abc452/original/ChatGPT-Image-12-mar-2026-10_06_25.png" alt="" loading="lazy"></div><div class="nm">Jose Martin</div><div class="rl">CMO</div></div><div class="bx-person"><div class="bx-ph"><img src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/yn4o2gszjvf218e/de5d8186615048deaeee6771cc1c98a9/original/WhatsApp-Image-2026-03-12-at-9.46.09-AM.jpeg" alt="" loading="lazy"></div><div class="nm">Alberto Rodrilla</div><div class="rl">Analítica</div></div></div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>Infraestructura de captación y duplicación</span></div>
+  <div class="bx-foot"><span>SUMMIT DUPLICADOR</span><span>Infraestructura de captación y duplicación</span></div>
 </div></section>
 
 <!-- BX03 -->
 <section class="slide dark"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>Nuestra promesa · 03</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Nuestra promesa · 03</span></div>
   <div class="bx-body" style="max-width:900px">
     <span class="eyebrow">Para equipos de network marketing</span>
     <h2 style="font-size:52px;margin-top:14px">Deja de <em>perseguir</em> personas.</h2>
@@ -250,7 +256,7 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
 
 <!-- BX04 -->
 <section class="slide light"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>El problema · 04</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>El problema · 04</span></div>
   <div class="bx-2col">
     <div>
       <span class="eyebrow">Por qué el modelo de hace 50 años ya no funciona</span>
@@ -266,60 +272,78 @@ h1,h2,.display{font-family:'Archivo';font-weight:800;letter-spacing:-.01em;line-
       <div style="margin-top:16px"><div class="bx-cg-ttl">Qué pasa si tu organización no cambia de modelo</div><ul class="bx-list no"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Redes que mueren en 6 – 12 meses.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Líderes clave quemados que se fugan a otras compañías.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Crecimiento que depende del ánimo del líder, no de un sistema.</span></li></ul></div>
     </div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>El problema no es la gente. Es el sistema.</span></div>
+  <div class="bx-foot"><span>SUMMIT</span><span>El problema no es la gente. Es el sistema.</span></div>
 </div></section>
 
 <!-- BX05 -->
 <section class="slide light"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>Comparativa · 05</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Comparativa · 05</span></div>
   <div class="bx-body">
     <div class="bx-head"><span class="eyebrow">Cómo nos definimos</span><h2 style="font-size:31px">No somos una agencia ni un CRM.</h2><p class="bx-sub" style="margin-top:9px">Somos una infraestructura de marketing y tecnología <b>ESPECIALIZADA en MLM</b>.</p></div>
     <div class="bx-vs">
       <div class="col bad"><div class="vh">Agencia tradicional</div><ul class="bx-list no"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Mismo manual para dentistas, abogados y MLM.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Te entrega un Excel con 200 nombres y teléfonos.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>No sabes si vieron tu negocio ni si les interesa.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Tu equipo llama a ciegas y se quema al tercer "no".</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Vive de captar clientes nuevos cada trimestre.</span></li></ul></div>
-      <div class="col good"><div class="vh">Método Korex</div><ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Construido desde cero solo para network marketing.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Te entrega personas que ya vieron tu presentación VSL completa.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Sabes qué vio cada lead y qué le interesó.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Tu equipo conversa con prospectos ya calientes.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Gana cuando tu red crece y se queda — alineado contigo.</span></li></ul></div>
+      <div class="col good"><div class="vh">Sistema Summit</div><ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Construido desde cero solo para network marketing.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Te entrega personas que ya vieron tu presentación VSL completa.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Sabes qué vio cada lead y qué le interesó.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Tu equipo conversa con prospectos ya calientes.</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Gana cuando tu red crece y se queda — alineado contigo.</span></li></ul></div>
     </div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>Hecho solo para multinivel</span></div>
+  <div class="bx-foot"><span>SUMMIT</span><span>Hecho solo para multinivel</span></div>
 </div></section>
 
 <!-- BX06 -->
 <section class="slide light"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>Quién hace qué · 06</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Quién hace qué · 06</span></div>
   <div class="bx-body">
     <div class="bx-head"><span class="eyebrow">Roles del sistema</span><h2 style="font-size:30px">Un sistema llave en mano — y una copia para <em>toda tu red</em>.</h2></div>
     <div class="bx-pillars">
       <div class="bx-pillar"><div class="bx-num">01</div><div class="pt">El líder o la empresa — aporta el mensaje</div><ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Graba los anuncios</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Graba la presentación VSL</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Pone el mensaje central del negocio</span></li></ul></div>
-      <div class="bx-pillar"><div class="bx-num">02</div><div class="pt">Korex — monta el sistema</div><ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Monta la estructura técnica y crea el embudo</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Capta el tráfico y filtra los prospectos</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Registra y ordena el comportamiento en el CRM</span></li></ul></div>
+      <div class="bx-pillar"><div class="bx-num">02</div><div class="pt">Summit — monta el sistema</div><ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Monta la estructura técnica y crea el embudo</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Capta el tráfico y filtra los prospectos</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Registra y ordena el comportamiento en el CRM</span></li></ul></div>
       <div class="bx-pillar"><div class="bx-num">03</div><div class="pt">Tu equipo — solo responde, guía y cierra</div><p class="bx-text" style="margin:0 0 8px">Recibe el servicio llave en mano. No necesita:</p><ul class="bx-list no"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Grabarse</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Aprender Meta Ads</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span><span>Crear funnels ni herramientas complejas</span></li></ul></div>
     </div>
     <div class="bx-card" style="margin-top:14px;border-left:3px solid var(--gold)"><p class="bx-text" style="margin:0;font-size:13.5px">Su único trabajo: <b>responder, guiar y cerrar</b> a los contactos que le llegan ya filtrados.</p></div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>Llave en mano · duplicable</span></div>
+  <div class="bx-foot"><span>SUMMIT</span><span>Llave en mano · duplicable</span></div>
 </div></section>
 
 <!-- BX09 -->
 <section class="slide dark"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>¿Cómo lo hacemos? · 09</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>¿Cómo lo hacemos? · 09</span></div>
   <div class="bx-body">
-    <div class="bx-head"><span class="eyebrow">El método · 4 pasos</span><h2 style="font-size:34px">Los 4 pasos del Método Korex.</h2></div>
+    <div class="bx-head"><span class="eyebrow">El método · 4 pasos</span><h2 style="font-size:34px">Los 4 pasos del sistema.</h2></div>
     <div class="bx-steps">
       <div class="bx-step"><div class="sn">01</div><div class="stt">Publicamos anuncios</div><div class="sd">Para atraer prospectos de negocio y de producto.</div></div>
       <div class="bx-step"><div class="sn">02</div><div class="stt">Captamos sus datos</div><div class="sd">Mediante un embudo de ventas diseñado a medida.</div></div>
       <div class="bx-step feat"><div class="sn">03</div><div class="stt">Ven tu presentación en video (VSL)</div><div class="sd">El video explica el negocio en automático.</div></div>
-      <div class="bx-step"><div class="sn">04</div><div class="stt">Tu equipo gestiona en tiempo real</div><div class="sd">Con el CRM Korex Duplicador, sobre prospectos ya filtrados.</div></div>
+      <div class="bx-step"><div class="sn">04</div><div class="stt">Tu equipo gestiona en tiempo real</div><div class="sd">Con el CRM Summit Duplicador, sobre prospectos ya filtrados.</div></div>
     </div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>Anuncio · Embudo · VSL · CRM</span></div>
+  <div class="bx-foot"><span>SUMMIT</span><span>Anuncio · Embudo · VSL · CRM</span></div>
 </div></section>
 
 <!-- BX10 -->
 <section class="slide light"><div class="bx">
-  <div class="bx-top"><span class="mk">MÉTODO <b>KOREX</b></span><span>Paso 1 · Anuncios · 10</span></div>
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Paso 1 · Anuncios · 10</span></div>
   <div class="bx-body">
-    <div class="bx-head"><span class="eyebrow">Paso 1</span><h2 style="font-size:31px">Publicamos anuncios para atraer prospectos.</h2><p class="bx-sub" style="margin-top:9px">Creamos el copy persuasivo de los anuncios y nos encargamos también de su edición. Estos son algunos ejemplos reales que hemos lanzado.</p></div>
-    <div class="bx-ads"><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/69b6dad887f0f2765610ab68.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Reclutamiento</span> · Jose Piquer</div></div><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/69ca65457c2af873c21319ee.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Reclutamiento</span> · Mónica Vozmediano</div></div><div class="bx-ad"><div class="r916"><video src="https://storage.googleapis.com/msgsndr/yvsigXlQTGQpDlSg1j7X/media/68c822c04f724ef37a329ca4.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Producto</span> · Raquel</div></div><div class="bx-ad"><div class="r916"><video src="https://storage.googleapis.com/msgsndr/yvsigXlQTGQpDlSg1j7X/media/693aac73ed957f1915fcaca5.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Reclutamiento</span> · José Luis Rivas</div></div><div class="bx-ad"><div class="r916"><video src="https://storage.googleapis.com/msgsndr/yvsigXlQTGQpDlSg1j7X/media/693aaab6ed957f9bf4fbf8e6.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Reclutamiento</span> · Uni2Matrix</div></div><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/6a213b80da24932f1206e150.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Reclutamiento</span> · Janeyling · JIFU</div></div></div>
+    <div class="bx-head" style="text-align:center"><span class="eyebrow">Paso 1</span><h2 style="font-size:31px">Publicamos anuncios para atraer prospectos.</h2><p class="bx-sub" style="margin:9px auto 0">Creamos el copy persuasivo de los anuncios y nos encargamos también de su edición. Estos son ejemplos reales de Summit Networkers.</p></div>
+    <div class="bx-ads three"><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/6a3aff9a659bec99fcc25b51.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Anuncio real</span> · Summit Networkers</div></div><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/6a3aff9a2ed3b9e323cb033c.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Anuncio real</span> · Summit Networkers</div></div><div class="bx-ad"><div class="r916"><video src="https://assets.cdn.filesafe.space/yvsigXlQTGQpDlSg1j7X/media/6a3aff9a2ed3b9e323cb0341.mp4#t=0.5" controls preload="metadata" playsinline></video></div><div class="bx-cap"><span class="t">Anuncio real</span> · Summit Networkers</div></div></div>
   </div>
-  <div class="bx-foot"><span>MÉTODO KOREX</span><span>Copy + edición incluidos</span></div>
+  <div class="bx-foot"><span>SUMMIT</span><span>Copy + edición incluidos</span></div>
+</div></section>
+
+<!-- BX11 -->
+<section class="slide light"><div class="bx">
+  <div class="bx-top"><span class="mk">SUMMIT <b>DUPLICADOR</b></span><span>Paso 2 · Embudo · 11</span></div>
+  <div class="bx-2col" style="grid-template-columns:0.92fr 1.08fr">
+    <div>
+      <span class="eyebrow">Paso 2</span>
+      <h2 style="font-size:33px;margin-top:12px">Captamos sus datos con un <em>embudo de ventas</em>.</h2>
+      <p class="bx-sub">Un embudo propio y optimizado que presenta la oportunidad y captura los datos de cada prospecto interesado — listo para que tu equipo lo contacte.</p>
+      <ul class="bx-list ok"><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Diseñado a medida para tu negocio</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>Captura nombre, contacto e interés del prospecto</span></li><li><span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12.5l5 5L20 6"/></svg></span><span>El lead llega ya filtrado a tu equipo</span></li></ul>
+    </div>
+    <div class="bx-embed">
+      <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="url">Embudo de ventas · Summit Networkers</span></div>
+      <div class="vp"><iframe src="https://summit.metodokorex.com/?pipeline_id=39&amp;user_id=712&amp;campaign_id=%7B%7D" loading="lazy" title="Embudo Summit Networkers"></iframe></div>
+    </div>
+  </div>
+  <div class="bx-foot"><span>SUMMIT</span><span>Embudo a medida, no plantilla</span></div>
 </div></section>
 
 <!-- S2 -->
